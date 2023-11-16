@@ -1,6 +1,6 @@
 const { Kafka } = require("kafkajs");
 
-const kafka = new Kafka({
+exports.kafka = new Kafka({
   clientId: "kafka-nodejs-learn",
   brokers: ["192.168.168.123:9092"],
 });
